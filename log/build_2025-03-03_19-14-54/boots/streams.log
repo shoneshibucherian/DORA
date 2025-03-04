@@ -1,0 +1,59 @@
+[0.173s] Invoking command in '/home/shone/boots/build/boots': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4
+[2.091s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.997s] -- Found hardware_interface: 4.25.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[3.266s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.298s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.342s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.526s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.543s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.637s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.696s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.757s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.775s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.286s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[8.590s] -- Configuring done (7.2s)
+[8.813s] -- Generating done (0.1s)
+[8.824s] -- Build files have been written to: /home/shone/boots/build/boots
+[8.954s] [ 50%] [32m[1mLinking CXX shared library libboots.so[0m
+[11.895s] [100%] Built target boots
+[11.912s] Invoked command in '/home/shone/boots/build/boots' returned '0': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4
+[11.914s] Invoking command in '/home/shone/boots/build/boots': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/boots
+[11.925s] -- Install configuration: ""
+[11.926s] -- Execute custom install script
+[11.927s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots//boots.xml
+[11.927s] -- Up-to-date symlink: /home/shone/boots/install/boots/include/boots/boots/carlikebot_system.hpp
+[11.928s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/view_robot.launch.py
+[11.929s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/ros2_control/carlikebot.ros2_control.xacro
+[11.929s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/urdf/carlikebot.urdf.xacro
+[11.930s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/carlikebot.launch.py
+[11.931s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/config/carlikebot_controllers.yaml
+[11.931s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.sh
+[11.931s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.dsv
+[11.932s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/package_run_dependencies/boots
+[11.932s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/parent_prefix_path/boots
+[11.933s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.sh
+[11.933s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.dsv
+[11.933s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.sh
+[11.934s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.dsv
+[11.934s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.bash
+[11.935s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.sh
+[11.935s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.zsh
+[11.935s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.dsv
+[11.936s] -- Symlinking: /home/shone/boots/install/boots/share/boots/package.dsv
+[11.951s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/packages/boots
+[11.951s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/boots
+[11.951s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_targets-extras.cmake
+[11.952s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.952s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig.cmake
+[11.953s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig-version.cmake
+[11.953s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/package.xml
+[11.991s] -- Installing: /home/shone/boots/install/boots/lib/libboots.so
+[12.023s] -- Set non-toolchain portion of runtime path of "/home/shone/boots/install/boots/lib/libboots.so" to ""
+[12.023s] -- Old export file "/home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake" will be replaced.  Removing files [/home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake].
+[12.024s] -- Installing: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake
+[12.025s] -- Installing: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake
+[12.030s] Invoked command in '/home/shone/boots/build/boots' returned '0': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/boots

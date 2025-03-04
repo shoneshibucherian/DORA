@@ -1,0 +1,40 @@
+[0.010s] Invoking command in '/home/shone/boots/build/boots': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o[0m
+[22.744s] [100%] [32m[1mLinking CXX shared library libboots.so[0m
+[38.311s] [100%] Built target boots
+[38.392s] Invoked command in '/home/shone/boots/build/boots' returned '0': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4
+[38.509s] Invoking command in '/home/shone/boots/build/boots': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/boots
+[38.527s] -- Install configuration: ""
+[38.770s] -- Execute custom install script
+[38.771s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots//boots.xml
+[38.772s] -- Up-to-date symlink: /home/shone/boots/install/boots/include/boots/boots/carlikebot_system.hpp
+[38.772s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/view_robot.launch.py
+[38.772s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/ros2_control/carlikebot.ros2_control.xacro
+[38.773s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/urdf/carlikebot.urdf.xacro
+[38.773s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/carlikebot.launch.py
+[38.774s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/config/carlikebot_controllers.yaml
+[38.774s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.sh
+[38.774s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.dsv
+[38.774s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/package_run_dependencies/boots
+[38.775s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/parent_prefix_path/boots
+[38.775s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.sh
+[38.775s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.dsv
+[38.775s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.sh
+[38.776s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.dsv
+[38.776s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.bash
+[38.776s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.sh
+[38.776s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.zsh
+[38.777s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.dsv
+[38.777s] -- Symlinking: /home/shone/boots/install/boots/share/boots/package.dsv
+[39.044s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/packages/boots
+[39.045s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/boots
+[39.045s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_targets-extras.cmake
+[39.046s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.046s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig.cmake
+[39.047s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig-version.cmake
+[39.047s] -- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/package.xml
+[39.197s] -- Installing: /home/shone/boots/install/boots/lib/libboots.so
+[39.440s] -- Set non-toolchain portion of runtime path of "/home/shone/boots/install/boots/lib/libboots.so" to ""
+[39.489s] -- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake
+[39.493s] -- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake
+[39.498s] Invoked command in '/home/shone/boots/build/boots' returned '0': AMENT_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/boots

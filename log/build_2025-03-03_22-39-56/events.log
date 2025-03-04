@@ -1,0 +1,500 @@
+[0.000000] (-) TimerEvent: {}
+[0.001293] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.001452] (boots) JobQueued: {'identifier': 'boots', 'dependencies': OrderedDict({'ros2_control_demo_description': '/home/shone/boots/install/ros2_control_demo_description'})}
+[0.001523] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.011873] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.012683] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'build'}
+[0.013501] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shone/boots/build/ros2_control_demo_description', '--', '-j4', '-l4'], 'cwd': '/home/shone/boots/build/ros2_control_demo_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/shone', 'OLDPWD': '/home/shone', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '164190', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/164151,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/164151', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/331932f8_9e2f_4279_896c_8e523d08aa2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6HOW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/ros2_control_demo_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.067430] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[0.068262] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'install'}
+[0.080533] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shone/boots/build/ros2_control_demo_description'], 'cwd': '/home/shone/boots/build/ros2_control_demo_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/shone', 'OLDPWD': '/home/shone', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '164190', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/164151,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/164151', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/331932f8_9e2f_4279_896c_8e523d08aa2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6HOW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/ros2_control_demo_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.092337] (ros2_control_demo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.093062] (ros2_control_demo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.093797] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro\n'}
+[0.094091] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro\n'}
+[0.094585] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz\n'}
+[0.095180] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro\n'}
+[0.095403] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro\n'}
+[0.095788] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz\n'}
+[0.096019] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz\n'}
+[0.096685] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro\n'}
+[0.096941] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro\n'}
+[0.097410] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz\n'}
+[0.097620] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz\n'}
+[0.098142] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro\n'}
+[0.098957] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl\n'}
+[0.099193] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl\n'}
+[0.099433] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl\n'}
+[0.099576] (-) TimerEvent: {}
+[0.099786] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl\n'}
+[0.100108] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl\n'}
+[0.100430] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl\n'}
+[0.100746] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl\n'}
+[0.101148] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae\n'}
+[0.101614] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae\n'}
+[0.101904] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae\n'}
+[0.102389] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae\n'}
+[0.102688] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae\n'}
+[0.103042] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae\n'}
+[0.104603] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae\n'}
+[0.106237] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf\n'}
+[0.106644] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro\n'}
+[0.107053] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[0.107422] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz\n'}
+[0.107684] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description\n'}
+[0.108030] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description\n'}
+[0.108313] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh\n'}
+[0.108633] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv\n'}
+[0.108890] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh\n'}
+[0.109231] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv\n'}
+[0.109453] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash\n'}
+[0.109779] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh\n'}
+[0.109995] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh\n'}
+[0.110266] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv\n'}
+[0.110477] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv\n'}
+[0.123387] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description\n'}
+[0.123683] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake\n'}
+[0.123883] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake\n'}
+[0.124117] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml\n'}
+[0.126547] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[0.160256] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 0}
+[0.163674] (boots) JobStarted: {'identifier': 'boots'}
+[0.169358] (boots) JobProgress: {'identifier': 'boots', 'progress': 'cmake'}
+[0.170813] (boots) JobProgress: {'identifier': 'boots', 'progress': 'build'}
+[0.172182] (boots) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shone/boots/build/boots', '--', '-j4', '-l4'], 'cwd': '/home/shone/boots/build/boots', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/shone', 'OLDPWD': '/home/shone', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '164190', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/164151,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/164151', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/331932f8_9e2f_4279_896c_8e523d08aa2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6HOW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/boots', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description'}), 'shell': False}
+[0.199704] (-) TimerEvent: {}
+[0.268554] (boots) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o\x1b[0m\n'}
+[0.299830] (-) TimerEvent: {}
+[0.400258] (-) TimerEvent: {}
+[0.500690] (-) TimerEvent: {}
+[0.601129] (-) TimerEvent: {}
+[0.701806] (-) TimerEvent: {}
+[0.802280] (-) TimerEvent: {}
+[0.902681] (-) TimerEvent: {}
+[1.003029] (-) TimerEvent: {}
+[1.103426] (-) TimerEvent: {}
+[1.203792] (-) TimerEvent: {}
+[1.304201] (-) TimerEvent: {}
+[1.404633] (-) TimerEvent: {}
+[1.504970] (-) TimerEvent: {}
+[1.607071] (-) TimerEvent: {}
+[1.707494] (-) TimerEvent: {}
+[1.807880] (-) TimerEvent: {}
+[1.908790] (-) TimerEvent: {}
+[2.012224] (-) TimerEvent: {}
+[2.113444] (-) TimerEvent: {}
+[2.215869] (-) TimerEvent: {}
+[2.316246] (-) TimerEvent: {}
+[2.416660] (-) TimerEvent: {}
+[2.517032] (-) TimerEvent: {}
+[2.617470] (-) TimerEvent: {}
+[2.717902] (-) TimerEvent: {}
+[2.818336] (-) TimerEvent: {}
+[2.918726] (-) TimerEvent: {}
+[3.019010] (-) TimerEvent: {}
+[3.119325] (-) TimerEvent: {}
+[3.219632] (-) TimerEvent: {}
+[3.319986] (-) TimerEvent: {}
+[3.420355] (-) TimerEvent: {}
+[3.520699] (-) TimerEvent: {}
+[3.621050] (-) TimerEvent: {}
+[3.721439] (-) TimerEvent: {}
+[3.821761] (-) TimerEvent: {}
+[3.922071] (-) TimerEvent: {}
+[4.022369] (-) TimerEvent: {}
+[4.122690] (-) TimerEvent: {}
+[4.223007] (-) TimerEvent: {}
+[4.323308] (-) TimerEvent: {}
+[4.423604] (-) TimerEvent: {}
+[4.523940] (-) TimerEvent: {}
+[4.624345] (-) TimerEvent: {}
+[4.724689] (-) TimerEvent: {}
+[4.825044] (-) TimerEvent: {}
+[4.925441] (-) TimerEvent: {}
+[5.025861] (-) TimerEvent: {}
+[5.126202] (-) TimerEvent: {}
+[5.226515] (-) TimerEvent: {}
+[5.326822] (-) TimerEvent: {}
+[5.427150] (-) TimerEvent: {}
+[5.527461] (-) TimerEvent: {}
+[5.627768] (-) TimerEvent: {}
+[5.728087] (-) TimerEvent: {}
+[5.828396] (-) TimerEvent: {}
+[5.943738] (-) TimerEvent: {}
+[6.044110] (-) TimerEvent: {}
+[6.144450] (-) TimerEvent: {}
+[6.244869] (-) TimerEvent: {}
+[6.345201] (-) TimerEvent: {}
+[6.445544] (-) TimerEvent: {}
+[6.545903] (-) TimerEvent: {}
+[6.646230] (-) TimerEvent: {}
+[6.747190] (-) TimerEvent: {}
+[6.847561] (-) TimerEvent: {}
+[6.947871] (-) TimerEvent: {}
+[7.048207] (-) TimerEvent: {}
+[7.148727] (-) TimerEvent: {}
+[7.249098] (-) TimerEvent: {}
+[7.349440] (-) TimerEvent: {}
+[7.449742] (-) TimerEvent: {}
+[7.550071] (-) TimerEvent: {}
+[7.650646] (-) TimerEvent: {}
+[7.751178] (-) TimerEvent: {}
+[7.851554] (-) TimerEvent: {}
+[7.952170] (-) TimerEvent: {}
+[8.052714] (-) TimerEvent: {}
+[8.153277] (-) TimerEvent: {}
+[8.253848] (-) TimerEvent: {}
+[8.354647] (-) TimerEvent: {}
+[8.455427] (-) TimerEvent: {}
+[8.556047] (-) TimerEvent: {}
+[8.656578] (-) TimerEvent: {}
+[8.757093] (-) TimerEvent: {}
+[8.857647] (-) TimerEvent: {}
+[8.958239] (-) TimerEvent: {}
+[9.058806] (-) TimerEvent: {}
+[9.159469] (-) TimerEvent: {}
+[9.260057] (-) TimerEvent: {}
+[9.360666] (-) TimerEvent: {}
+[9.461266] (-) TimerEvent: {}
+[9.561875] (-) TimerEvent: {}
+[9.662645] (-) TimerEvent: {}
+[9.763288] (-) TimerEvent: {}
+[9.863712] (-) TimerEvent: {}
+[9.964181] (-) TimerEvent: {}
+[10.064641] (-) TimerEvent: {}
+[10.165207] (-) TimerEvent: {}
+[10.265772] (-) TimerEvent: {}
+[10.366365] (-) TimerEvent: {}
+[10.466972] (-) TimerEvent: {}
+[10.567667] (-) TimerEvent: {}
+[10.668338] (-) TimerEvent: {}
+[10.768890] (-) TimerEvent: {}
+[10.869478] (-) TimerEvent: {}
+[10.977557] (-) TimerEvent: {}
+[11.078234] (-) TimerEvent: {}
+[11.178767] (-) TimerEvent: {}
+[11.279352] (-) TimerEvent: {}
+[11.379872] (-) TimerEvent: {}
+[11.480400] (-) TimerEvent: {}
+[11.580942] (-) TimerEvent: {}
+[11.681501] (-) TimerEvent: {}
+[11.782041] (-) TimerEvent: {}
+[11.882557] (-) TimerEvent: {}
+[11.982973] (-) TimerEvent: {}
+[12.083436] (-) TimerEvent: {}
+[12.184038] (-) TimerEvent: {}
+[12.284641] (-) TimerEvent: {}
+[12.385296] (-) TimerEvent: {}
+[12.485748] (-) TimerEvent: {}
+[12.586097] (-) TimerEvent: {}
+[12.686450] (-) TimerEvent: {}
+[12.786965] (-) TimerEvent: {}
+[12.887342] (-) TimerEvent: {}
+[12.987899] (-) TimerEvent: {}
+[13.088592] (-) TimerEvent: {}
+[13.189207] (-) TimerEvent: {}
+[13.289713] (-) TimerEvent: {}
+[13.390020] (-) TimerEvent: {}
+[13.490402] (-) TimerEvent: {}
+[13.590918] (-) TimerEvent: {}
+[13.691277] (-) TimerEvent: {}
+[13.791587] (-) TimerEvent: {}
+[13.891868] (-) TimerEvent: {}
+[13.992257] (-) TimerEvent: {}
+[14.092842] (-) TimerEvent: {}
+[14.193190] (-) TimerEvent: {}
+[14.293554] (-) TimerEvent: {}
+[14.394158] (-) TimerEvent: {}
+[14.494707] (-) TimerEvent: {}
+[14.595294] (-) TimerEvent: {}
+[14.695809] (-) TimerEvent: {}
+[14.796152] (-) TimerEvent: {}
+[14.896453] (-) TimerEvent: {}
+[14.996755] (-) TimerEvent: {}
+[15.097027] (-) TimerEvent: {}
+[15.197330] (-) TimerEvent: {}
+[15.297642] (-) TimerEvent: {}
+[15.397939] (-) TimerEvent: {}
+[15.498258] (-) TimerEvent: {}
+[15.598584] (-) TimerEvent: {}
+[15.698971] (-) TimerEvent: {}
+[15.799308] (-) TimerEvent: {}
+[15.899789] (-) TimerEvent: {}
+[16.000205] (-) TimerEvent: {}
+[16.100753] (-) TimerEvent: {}
+[16.201354] (-) TimerEvent: {}
+[16.301907] (-) TimerEvent: {}
+[16.402488] (-) TimerEvent: {}
+[16.503037] (-) TimerEvent: {}
+[16.603566] (-) TimerEvent: {}
+[16.704068] (-) TimerEvent: {}
+[16.804631] (-) TimerEvent: {}
+[16.905214] (-) TimerEvent: {}
+[17.005744] (-) TimerEvent: {}
+[17.106275] (-) TimerEvent: {}
+[17.206839] (-) TimerEvent: {}
+[17.307558] (-) TimerEvent: {}
+[17.408099] (-) TimerEvent: {}
+[17.508643] (-) TimerEvent: {}
+[17.609374] (-) TimerEvent: {}
+[17.710033] (-) TimerEvent: {}
+[17.810573] (-) TimerEvent: {}
+[17.911113] (-) TimerEvent: {}
+[18.011657] (-) TimerEvent: {}
+[18.112285] (-) TimerEvent: {}
+[18.213025] (-) TimerEvent: {}
+[18.313780] (-) TimerEvent: {}
+[18.414558] (-) TimerEvent: {}
+[18.515829] (-) TimerEvent: {}
+[18.617440] (-) TimerEvent: {}
+[18.717848] (-) TimerEvent: {}
+[18.818236] (-) TimerEvent: {}
+[18.918643] (-) TimerEvent: {}
+[19.019388] (-) TimerEvent: {}
+[19.120150] (-) TimerEvent: {}
+[19.220810] (-) TimerEvent: {}
+[19.321465] (-) TimerEvent: {}
+[19.421983] (-) TimerEvent: {}
+[19.522539] (-) TimerEvent: {}
+[19.623080] (-) TimerEvent: {}
+[19.723561] (-) TimerEvent: {}
+[19.823938] (-) TimerEvent: {}
+[19.924525] (-) TimerEvent: {}
+[20.025070] (-) TimerEvent: {}
+[20.125421] (-) TimerEvent: {}
+[20.225988] (-) TimerEvent: {}
+[20.326543] (-) TimerEvent: {}
+[20.427244] (-) TimerEvent: {}
+[20.527814] (-) TimerEvent: {}
+[20.628391] (-) TimerEvent: {}
+[20.728900] (-) TimerEvent: {}
+[20.829508] (-) TimerEvent: {}
+[20.930083] (-) TimerEvent: {}
+[21.030634] (-) TimerEvent: {}
+[21.131061] (-) TimerEvent: {}
+[21.231461] (-) TimerEvent: {}
+[21.331837] (-) TimerEvent: {}
+[21.432404] (-) TimerEvent: {}
+[21.532785] (-) TimerEvent: {}
+[21.633321] (-) TimerEvent: {}
+[21.733913] (-) TimerEvent: {}
+[21.834615] (-) TimerEvent: {}
+[21.935194] (-) TimerEvent: {}
+[22.035907] (-) TimerEvent: {}
+[22.136488] (-) TimerEvent: {}
+[22.237050] (-) TimerEvent: {}
+[22.337627] (-) TimerEvent: {}
+[22.438201] (-) TimerEvent: {}
+[22.538734] (-) TimerEvent: {}
+[22.639106] (-) TimerEvent: {}
+[22.739424] (-) TimerEvent: {}
+[22.839789] (-) TimerEvent: {}
+[22.906725] (boots) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libboots.so\x1b[0m\n'}
+[22.939900] (-) TimerEvent: {}
+[23.040204] (-) TimerEvent: {}
+[23.140502] (-) TimerEvent: {}
+[23.240812] (-) TimerEvent: {}
+[23.341218] (-) TimerEvent: {}
+[23.441545] (-) TimerEvent: {}
+[23.541899] (-) TimerEvent: {}
+[23.642435] (-) TimerEvent: {}
+[23.743009] (-) TimerEvent: {}
+[23.843417] (-) TimerEvent: {}
+[23.943926] (-) TimerEvent: {}
+[24.044279] (-) TimerEvent: {}
+[24.144635] (-) TimerEvent: {}
+[24.245070] (-) TimerEvent: {}
+[24.345629] (-) TimerEvent: {}
+[24.446219] (-) TimerEvent: {}
+[24.546747] (-) TimerEvent: {}
+[24.647219] (-) TimerEvent: {}
+[24.747706] (-) TimerEvent: {}
+[24.848049] (-) TimerEvent: {}
+[24.948490] (-) TimerEvent: {}
+[25.049134] (-) TimerEvent: {}
+[25.149481] (-) TimerEvent: {}
+[25.249894] (-) TimerEvent: {}
+[25.350571] (-) TimerEvent: {}
+[25.451178] (-) TimerEvent: {}
+[25.551720] (-) TimerEvent: {}
+[25.652332] (-) TimerEvent: {}
+[25.752884] (-) TimerEvent: {}
+[25.853519] (-) TimerEvent: {}
+[25.953936] (-) TimerEvent: {}
+[26.054539] (-) TimerEvent: {}
+[26.155027] (-) TimerEvent: {}
+[26.255474] (-) TimerEvent: {}
+[26.356020] (-) TimerEvent: {}
+[26.456577] (-) TimerEvent: {}
+[26.557168] (-) TimerEvent: {}
+[26.657855] (-) TimerEvent: {}
+[26.758495] (-) TimerEvent: {}
+[26.859206] (-) TimerEvent: {}
+[26.959684] (-) TimerEvent: {}
+[27.060479] (-) TimerEvent: {}
+[27.161232] (-) TimerEvent: {}
+[27.261884] (-) TimerEvent: {}
+[27.362543] (-) TimerEvent: {}
+[27.463119] (-) TimerEvent: {}
+[27.563706] (-) TimerEvent: {}
+[27.664310] (-) TimerEvent: {}
+[27.764873] (-) TimerEvent: {}
+[27.868320] (-) TimerEvent: {}
+[27.969057] (-) TimerEvent: {}
+[28.069694] (-) TimerEvent: {}
+[28.170030] (-) TimerEvent: {}
+[28.270404] (-) TimerEvent: {}
+[28.370871] (-) TimerEvent: {}
+[28.471460] (-) TimerEvent: {}
+[28.572044] (-) TimerEvent: {}
+[28.672621] (-) TimerEvent: {}
+[28.773329] (-) TimerEvent: {}
+[28.873970] (-) TimerEvent: {}
+[28.974387] (-) TimerEvent: {}
+[29.075286] (-) TimerEvent: {}
+[29.175776] (-) TimerEvent: {}
+[29.276166] (-) TimerEvent: {}
+[29.376691] (-) TimerEvent: {}
+[29.477121] (-) TimerEvent: {}
+[29.579656] (-) TimerEvent: {}
+[29.680283] (-) TimerEvent: {}
+[29.780795] (-) TimerEvent: {}
+[29.881255] (-) TimerEvent: {}
+[29.981746] (-) TimerEvent: {}
+[30.082058] (-) TimerEvent: {}
+[30.182468] (-) TimerEvent: {}
+[30.282933] (-) TimerEvent: {}
+[30.383269] (-) TimerEvent: {}
+[30.483613] (-) TimerEvent: {}
+[30.583982] (-) TimerEvent: {}
+[30.684541] (-) TimerEvent: {}
+[30.785083] (-) TimerEvent: {}
+[30.885602] (-) TimerEvent: {}
+[30.986016] (-) TimerEvent: {}
+[31.086384] (-) TimerEvent: {}
+[31.186920] (-) TimerEvent: {}
+[31.287509] (-) TimerEvent: {}
+[31.388131] (-) TimerEvent: {}
+[31.488525] (-) TimerEvent: {}
+[31.589015] (-) TimerEvent: {}
+[31.689445] (-) TimerEvent: {}
+[31.790057] (-) TimerEvent: {}
+[31.890630] (-) TimerEvent: {}
+[31.991034] (-) TimerEvent: {}
+[32.091464] (-) TimerEvent: {}
+[32.192049] (-) TimerEvent: {}
+[32.292635] (-) TimerEvent: {}
+[32.393351] (-) TimerEvent: {}
+[32.494055] (-) TimerEvent: {}
+[32.595139] (-) TimerEvent: {}
+[32.695752] (-) TimerEvent: {}
+[32.796260] (-) TimerEvent: {}
+[32.896805] (-) TimerEvent: {}
+[32.997277] (-) TimerEvent: {}
+[33.098326] (-) TimerEvent: {}
+[33.198750] (-) TimerEvent: {}
+[33.299385] (-) TimerEvent: {}
+[33.400055] (-) TimerEvent: {}
+[33.500601] (-) TimerEvent: {}
+[33.601170] (-) TimerEvent: {}
+[33.701855] (-) TimerEvent: {}
+[33.802434] (-) TimerEvent: {}
+[33.902991] (-) TimerEvent: {}
+[34.003306] (-) TimerEvent: {}
+[34.103684] (-) TimerEvent: {}
+[34.204165] (-) TimerEvent: {}
+[34.304673] (-) TimerEvent: {}
+[34.405242] (-) TimerEvent: {}
+[34.505782] (-) TimerEvent: {}
+[34.606372] (-) TimerEvent: {}
+[34.707062] (-) TimerEvent: {}
+[34.807725] (-) TimerEvent: {}
+[34.908365] (-) TimerEvent: {}
+[35.008905] (-) TimerEvent: {}
+[35.109501] (-) TimerEvent: {}
+[35.210070] (-) TimerEvent: {}
+[35.310610] (-) TimerEvent: {}
+[35.411178] (-) TimerEvent: {}
+[35.511697] (-) TimerEvent: {}
+[35.612222] (-) TimerEvent: {}
+[35.712758] (-) TimerEvent: {}
+[35.813353] (-) TimerEvent: {}
+[35.913923] (-) TimerEvent: {}
+[36.014480] (-) TimerEvent: {}
+[36.115027] (-) TimerEvent: {}
+[36.215459] (-) TimerEvent: {}
+[36.316061] (-) TimerEvent: {}
+[36.416631] (-) TimerEvent: {}
+[36.517217] (-) TimerEvent: {}
+[36.617840] (-) TimerEvent: {}
+[36.718603] (-) TimerEvent: {}
+[36.819174] (-) TimerEvent: {}
+[36.919736] (-) TimerEvent: {}
+[37.020331] (-) TimerEvent: {}
+[37.120884] (-) TimerEvent: {}
+[37.221319] (-) TimerEvent: {}
+[37.321892] (-) TimerEvent: {}
+[37.422461] (-) TimerEvent: {}
+[37.522938] (-) TimerEvent: {}
+[37.623349] (-) TimerEvent: {}
+[37.723930] (-) TimerEvent: {}
+[37.824479] (-) TimerEvent: {}
+[37.925065] (-) TimerEvent: {}
+[38.025622] (-) TimerEvent: {}
+[38.126191] (-) TimerEvent: {}
+[38.226731] (-) TimerEvent: {}
+[38.327231] (-) TimerEvent: {}
+[38.427852] (-) TimerEvent: {}
+[38.474893] (boots) StdoutLine: {'line': b'[100%] Built target boots\n'}
+[38.528080] (-) TimerEvent: {}
+[38.555457] (boots) CommandEnded: {'returncode': 0}
+[38.589299] (boots) JobProgress: {'identifier': 'boots', 'progress': 'install'}
+[38.628246] (-) TimerEvent: {}
+[38.672177] (boots) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shone/boots/build/boots'], 'cwd': '/home/shone/boots/build/boots', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/shone', 'OLDPWD': '/home/shone', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '164190', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/164151,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/164151', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/331932f8_9e2f_4279_896c_8e523d08aa2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6HOW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/boots', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description'}), 'shell': False}
+[38.690102] (boots) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.728388] (-) TimerEvent: {}
+[38.828930] (-) TimerEvent: {}
+[38.929390] (-) TimerEvent: {}
+[38.933709] (boots) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[38.934401] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots//boots.xml\n'}
+[38.935100] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/include/boots/boots/carlikebot_system.hpp\n'}
+[38.935575] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/view_robot.launch.py\n'}
+[38.935931] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/ros2_control/carlikebot.ros2_control.xacro\n'}
+[38.936390] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/urdf/carlikebot.urdf.xacro\n'}
+[38.936816] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/carlikebot.launch.py\n'}
+[38.937187] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/config/carlikebot_controllers.yaml\n'}
+[38.937463] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.sh\n'}
+[38.937724] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.dsv\n'}
+[38.938042] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/package_run_dependencies/boots\n'}
+[38.938290] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/parent_prefix_path/boots\n'}
+[38.938548] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.sh\n'}
+[38.938793] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.dsv\n'}
+[38.939068] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.sh\n'}
+[38.939319] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.dsv\n'}
+[38.939559] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.bash\n'}
+[38.939796] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.sh\n'}
+[38.940056] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.zsh\n'}
+[38.940300] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.dsv\n'}
+[38.940484] (boots) StdoutLine: {'line': b'-- Symlinking: /home/shone/boots/install/boots/share/boots/package.dsv\n'}
+[39.029513] (-) TimerEvent: {}
+[39.130011] (-) TimerEvent: {}
+[39.207889] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/packages/boots\n'}
+[39.208373] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/boots\n'}
+[39.208881] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[39.209349] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.209966] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig.cmake\n'}
+[39.210330] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig-version.cmake\n'}
+[39.210788] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/package.xml\n'}
+[39.230114] (-) TimerEvent: {}
+[39.330535] (-) TimerEvent: {}
+[39.359907] (boots) StdoutLine: {'line': b'-- Installing: /home/shone/boots/install/boots/lib/libboots.so\n'}
+[39.430713] (-) TimerEvent: {}
+[39.531275] (-) TimerEvent: {}
+[39.603278] (boots) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shone/boots/install/boots/lib/libboots.so" to ""\n'}
+[39.631442] (-) TimerEvent: {}
+[39.651618] (boots) StdoutLine: {'line': b'-- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake\n'}
+[39.656401] (boots) StdoutLine: {'line': b'-- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake\n'}
+[39.659939] (boots) CommandEnded: {'returncode': 0}
+[39.732254] (-) TimerEvent: {}
+[39.814381] (boots) JobEnded: {'identifier': 'boots', 'rc': 0}
+[39.816820] (-) EventReactorShutdown: {}

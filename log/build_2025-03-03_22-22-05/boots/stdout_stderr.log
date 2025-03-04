@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o[0m
+In file included from [01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:15[m[K:
+[01m[K/home/shone/boots/src/boots/hardware/include/boots/carlikebot_system.hpp:108:27:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  108 |   std::shared_ptr<rclcpp::[01;31m[KTimerBase[m[K> timer_;
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/shone/boots/src/boots/hardware/include/boots/carlikebot_system.hpp:108:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |   std::shared_ptr<rclcpp::TimerBase[01;31m[K>[m[K timer_;
+      |                                    [01;31m[K^[m[K
+[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn boots::CarlikeBotSystemHardware::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:246:5:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+  246 |     [01;31m[K500ms[m[K, std::bind(&CarlikeBotSystemHardware::update_commands, this));
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn boots::CarlikeBotSystemHardware::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:278:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[K((boots::CarlikeBotSystemHardware*)this)->boots::CarlikeBotSystemHardware::timer_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  278 |   timer_.[01;31m[Kreset[m[K();
+      |          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/boots.dir/build.make:76: CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/boots.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

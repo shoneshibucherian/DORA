@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/shone/boots/build/boots': CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o[0m
+[4.237s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.237s]                  from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:35[m[K,
+[4.237s]                  from [01m[K/home/shone/boots/src/boots/hardware/include/boots/carlikebot_system.hpp:26[m[K,
+[4.237s]                  from [01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:15[m[K:
+[4.237s] [01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type boots::CarlikeBotSystemHardware::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.237s] [01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:326:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[4.237s]   326 |   RCLCPP_INFO(get_logger(), [01;31m[Kcommand[m[K);
+[4.238s]       |                             [01;31m[K^~~~~~~[m[K
+[4.238s]       |                             [01;31m[K|[m[K
+[4.238s]       |                             [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[4.238s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[4.238s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[4.238s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/time.h:27[m[K,
+[4.238s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:22[m[K,
+[4.238s]                  from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:33[m[K:
+[4.239s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[4.239s]   473 |   [01;36m[Kconst char * format[m[K,
+[4.239s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[5.929s] gmake[2]: *** [CMakeFiles/boots.dir/build.make:76: CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o] Error 1
+[5.930s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/boots.dir/all] Error 2
+[5.930s] gmake: *** [Makefile:146: all] Error 2
+[5.934s] Invoked command in '/home/shone/boots/build/boots' returned '2': CMAKE_PREFIX_PATH=/home/shone/boots/install/ros2_control_demo_description:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/boots -- -j4 -l4

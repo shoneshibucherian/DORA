@@ -1,0 +1,4 @@
+Invoking command in '/home/shone/boots/build/ros2_control_demo_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/ros2_control_demo_description -- -j4 -l4
+Invoked command in '/home/shone/boots/build/ros2_control_demo_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shone/boots/build/ros2_control_demo_description -- -j4 -l4
+Invoking command in '/home/shone/boots/build/ros2_control_demo_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/ros2_control_demo_description
+Invoked command in '/home/shone/boots/build/ros2_control_demo_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shone/boots/build/ros2_control_demo_description

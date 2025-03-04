@@ -1,0 +1,8 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[31mCMake Error at CMakeLists.txt:22 (pkg_check_modules):
+  Unknown CMake command "pkg_check_modules".
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

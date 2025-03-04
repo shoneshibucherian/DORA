@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.001796] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.004589] (boots) JobQueued: {'identifier': 'boots', 'dependencies': OrderedDict({'ros2_control_demo_description': '/home/shone/boots/install/ros2_control_demo_description'})}
+[0.004673] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.099777] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.300495] (-) TimerEvent: {}
+[0.400922] (-) TimerEvent: {}
+[0.467376] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.473181] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'build'}
+[0.473303] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shone/boots/build/ros2_control_demo_description', '--', '-j4', '-l4'], 'cwd': '/home/shone/boots/build/ros2_control_demo_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shone/boots/install/boots/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shone', 'OLDPWD': '/home/shone/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2281', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shone/robot_ws/install:/home/shone/boots/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/2231,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/2231', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e7bd82b_aee7_46f6_a911_8d1c597fbdc8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z4OU22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/robot_ws/install/hello_py:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/ros2_control_demo_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shone/robot_ws/build/hello_py:/home/shone/robot_ws/install/hello_py/lib/python3.12/site-packages:/home/shone/robot_ws/install/bot_firmware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy'}), 'shell': False}
+[0.501081] (-) TimerEvent: {}
+[0.601472] (-) TimerEvent: {}
+[0.701832] (-) TimerEvent: {}
+[0.738683] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[0.740996] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'install'}
+[0.763522] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shone/boots/build/ros2_control_demo_description'], 'cwd': '/home/shone/boots/build/ros2_control_demo_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shone/boots/install/boots/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shone', 'OLDPWD': '/home/shone/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2281', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shone/robot_ws/install:/home/shone/boots/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/2231,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/2231', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e7bd82b_aee7_46f6_a911_8d1c597fbdc8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z4OU22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/robot_ws/install/hello_py:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/ros2_control_demo_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shone/robot_ws/build/hello_py:/home/shone/robot_ws/install/hello_py/lib/python3.12/site-packages:/home/shone/robot_ws/install/bot_firmware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy'}), 'shell': False}
+[0.801946] (-) TimerEvent: {}
+[0.805933] (ros2_control_demo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.814352] (ros2_control_demo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.855101] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro\n'}
+[0.855632] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro\n'}
+[0.855984] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz\n'}
+[0.865009] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro\n'}
+[0.865561] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro\n'}
+[0.867806] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz\n'}
+[0.868233] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz\n'}
+[0.869161] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro\n'}
+[0.869627] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro\n'}
+[0.870329] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz\n'}
+[0.870889] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz\n'}
+[0.872144] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro\n'}
+[0.885796] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl\n'}
+[0.887193] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl\n'}
+[0.888261] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl\n'}
+[0.888721] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl\n'}
+[0.893409] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl\n'}
+[0.893789] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl\n'}
+[0.894905] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl\n'}
+[0.895187] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae\n'}
+[0.895486] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae\n'}
+[0.895756] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae\n'}
+[0.896004] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae\n'}
+[0.896232] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae\n'}
+[0.897540] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae\n'}
+[0.897969] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae\n'}
+[0.898217] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf\n'}
+[0.898639] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro\n'}
+[0.899817] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[0.901495] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz\n'}
+[0.902074] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description\n'}
+[0.904191] (-) TimerEvent: {}
+[0.904547] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description\n'}
+[0.905720] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh\n'}
+[0.906872] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv\n'}
+[0.907150] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh\n'}
+[0.907433] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv\n'}
+[0.907694] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash\n'}
+[0.907927] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh\n'}
+[0.908165] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh\n'}
+[0.908392] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv\n'}
+[0.908669] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv\n'}
+[0.932544] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description\n'}
+[0.932942] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake\n'}
+[0.933468] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake\n'}
+[0.934079] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml\n'}
+[0.938116] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[1.004338] (-) TimerEvent: {}
+[1.083515] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 0}
+[1.085514] (boots) JobStarted: {'identifier': 'boots'}
+[1.106647] (-) TimerEvent: {}
+[1.165672] (boots) JobProgress: {'identifier': 'boots', 'progress': 'cmake'}
+[1.198245] (boots) JobProgress: {'identifier': 'boots', 'progress': 'build'}
+[1.198369] (boots) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shone/boots/build/boots', '--', '-j4', '-l4'], 'cwd': '/home/shone/boots/build/boots', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shone/boots/install/boots/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shone', 'OLDPWD': '/home/shone/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2281', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shone/robot_ws/install:/home/shone/boots/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/2231,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/2231', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e7bd82b_aee7_46f6_a911_8d1c597fbdc8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z4OU22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/robot_ws/install/hello_py:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/boots', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shone/robot_ws/build/hello_py:/home/shone/robot_ws/install/hello_py/lib/python3.12/site-packages:/home/shone/robot_ws/install/bot_firmware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy'}), 'shell': False}
+[1.207096] (-) TimerEvent: {}
+[1.307821] (-) TimerEvent: {}
+[1.409368] (-) TimerEvent: {}
+[1.474117] (boots) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o\x1b[0m\n'}
+[1.509486] (-) TimerEvent: {}
+[1.609873] (-) TimerEvent: {}
+[1.710305] (-) TimerEvent: {}
+[1.810706] (-) TimerEvent: {}
+[1.911589] (-) TimerEvent: {}
+[2.012008] (-) TimerEvent: {}
+[2.112482] (-) TimerEvent: {}
+[2.213217] (-) TimerEvent: {}
+[2.315628] (-) TimerEvent: {}
+[2.419500] (-) TimerEvent: {}
+[2.519907] (-) TimerEvent: {}
+[2.620498] (-) TimerEvent: {}
+[2.722263] (-) TimerEvent: {}
+[2.822670] (-) TimerEvent: {}
+[2.923255] (-) TimerEvent: {}
+[3.023721] (-) TimerEvent: {}
+[3.124123] (-) TimerEvent: {}
+[3.224487] (-) TimerEvent: {}
+[3.324836] (-) TimerEvent: {}
+[3.425170] (-) TimerEvent: {}
+[3.525497] (-) TimerEvent: {}
+[3.625884] (-) TimerEvent: {}
+[3.726533] (-) TimerEvent: {}
+[3.827091] (-) TimerEvent: {}
+[3.927568] (-) TimerEvent: {}
+[4.027938] (-) TimerEvent: {}
+[4.128334] (-) TimerEvent: {}
+[4.228731] (-) TimerEvent: {}
+[4.329133] (-) TimerEvent: {}
+[4.429616] (-) TimerEvent: {}
+[4.530014] (-) TimerEvent: {}
+[4.630600] (-) TimerEvent: {}
+[4.730985] (-) TimerEvent: {}
+[4.831446] (-) TimerEvent: {}
+[4.931852] (-) TimerEvent: {}
+[5.032235] (-) TimerEvent: {}
+[5.132654] (-) TimerEvent: {}
+[5.233033] (-) TimerEvent: {}
+[5.333487] (-) TimerEvent: {}
+[5.433948] (-) TimerEvent: {}
+[5.534538] (-) TimerEvent: {}
+[5.635165] (-) TimerEvent: {}
+[5.735596] (-) TimerEvent: {}
+[5.836485] (-) TimerEvent: {}
+[5.937146] (-) TimerEvent: {}
+[6.037604] (-) TimerEvent: {}
+[6.137999] (-) TimerEvent: {}
+[6.238367] (-) TimerEvent: {}
+[6.338721] (-) TimerEvent: {}
+[6.439192] (-) TimerEvent: {}
+[6.539925] (-) TimerEvent: {}
+[6.640755] (-) TimerEvent: {}
+[6.741437] (-) TimerEvent: {}
+[6.841856] (-) TimerEvent: {}
+[6.942378] (-) TimerEvent: {}
+[7.043570] (-) TimerEvent: {}
+[7.143959] (-) TimerEvent: {}
+[7.244371] (-) TimerEvent: {}
+[7.344762] (-) TimerEvent: {}
+[7.445313] (-) TimerEvent: {}
+[7.545761] (-) TimerEvent: {}
+[7.646252] (-) TimerEvent: {}
+[7.747003] (-) TimerEvent: {}
+[7.847369] (-) TimerEvent: {}
+[7.947814] (-) TimerEvent: {}
+[8.048236] (-) TimerEvent: {}
+[8.148631] (-) TimerEvent: {}
+[8.248973] (-) TimerEvent: {}
+[8.349347] (-) TimerEvent: {}
+[8.449716] (-) TimerEvent: {}
+[8.550068] (-) TimerEvent: {}
+[8.650484] (-) TimerEvent: {}
+[8.751298] (-) TimerEvent: {}
+[8.853624] (-) TimerEvent: {}
+[8.954082] (-) TimerEvent: {}
+[9.055036] (-) TimerEvent: {}
+[9.155441] (-) TimerEvent: {}
+[9.255840] (-) TimerEvent: {}
+[9.356269] (-) TimerEvent: {}
+[9.456671] (-) TimerEvent: {}
+[9.557286] (-) TimerEvent: {}
+[9.657673] (-) TimerEvent: {}
+[9.758038] (-) TimerEvent: {}
+[9.858417] (-) TimerEvent: {}
+[9.958800] (-) TimerEvent: {}
+[10.059218] (-) TimerEvent: {}
+[10.159687] (-) TimerEvent: {}
+[10.260095] (-) TimerEvent: {}
+[10.360991] (-) TimerEvent: {}
+[10.461619] (-) TimerEvent: {}
+[10.562024] (-) TimerEvent: {}
+[10.662447] (-) TimerEvent: {}
+[10.762909] (-) TimerEvent: {}
+[10.863337] (-) TimerEvent: {}
+[10.966687] (-) TimerEvent: {}
+[11.067126] (-) TimerEvent: {}
+[11.167622] (-) TimerEvent: {}
+[11.268285] (-) TimerEvent: {}
+[11.368714] (-) TimerEvent: {}
+[11.469152] (-) TimerEvent: {}
+[11.569721] (-) TimerEvent: {}
+[11.670118] (-) TimerEvent: {}
+[11.770600] (-) TimerEvent: {}
+[11.871032] (-) TimerEvent: {}
+[11.971514] (-) TimerEvent: {}
+[12.071940] (-) TimerEvent: {}
+[12.173027] (-) TimerEvent: {}
+[12.274481] (-) TimerEvent: {}
+[12.374879] (-) TimerEvent: {}
+[12.476713] (-) TimerEvent: {}
+[12.577059] (-) TimerEvent: {}
+[12.677503] (-) TimerEvent: {}
+[12.777909] (-) TimerEvent: {}
+[12.878842] (-) TimerEvent: {}
+[12.979580] (-) TimerEvent: {}
+[13.081005] (-) TimerEvent: {}
+[13.182605] (-) TimerEvent: {}
+[13.284881] (-) TimerEvent: {}
+[13.385350] (-) TimerEvent: {}
+[13.487039] (-) TimerEvent: {}
+[13.587462] (-) TimerEvent: {}
+[13.687814] (-) TimerEvent: {}
+[13.788415] (-) TimerEvent: {}
+[13.889068] (-) TimerEvent: {}
+[13.989480] (-) TimerEvent: {}
+[14.089885] (-) TimerEvent: {}
+[14.190688] (-) TimerEvent: {}
+[14.291063] (-) TimerEvent: {}
+[14.392096] (-) TimerEvent: {}
+[14.492489] (-) TimerEvent: {}
+[14.594502] (-) TimerEvent: {}
+[14.694893] (-) TimerEvent: {}
+[14.795393] (-) TimerEvent: {}
+[14.895886] (-) TimerEvent: {}
+[14.996358] (-) TimerEvent: {}
+[15.098165] (-) TimerEvent: {}
+[15.198754] (-) TimerEvent: {}
+[15.299132] (-) TimerEvent: {}
+[15.399488] (-) TimerEvent: {}
+[15.499859] (-) TimerEvent: {}
+[15.600232] (-) TimerEvent: {}
+[15.700789] (-) TimerEvent: {}
+[15.801822] (-) TimerEvent: {}
+[15.902180] (-) TimerEvent: {}
+[16.002553] (-) TimerEvent: {}
+[16.102937] (-) TimerEvent: {}
+[16.203342] (-) TimerEvent: {}
+[16.303785] (-) TimerEvent: {}
+[16.404393] (-) TimerEvent: {}
+[16.505265] (-) TimerEvent: {}
+[16.605889] (-) TimerEvent: {}
+[16.646871] (boots) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libboots.so\x1b[0m\n'}
+[16.706041] (-) TimerEvent: {}
+[16.807845] (-) TimerEvent: {}
+[16.908607] (-) TimerEvent: {}
+[17.010580] (-) TimerEvent: {}
+[17.110996] (-) TimerEvent: {}
+[17.211397] (-) TimerEvent: {}
+[17.311837] (-) TimerEvent: {}
+[17.412254] (-) TimerEvent: {}
+[17.513933] (-) TimerEvent: {}
+[17.614358] (-) TimerEvent: {}
+[17.714820] (-) TimerEvent: {}
+[17.782981] (boots) StdoutLine: {'line': b'[100%] Built target boots\n'}
+[17.808299] (boots) CommandEnded: {'returncode': 0}
+[17.811456] (boots) JobProgress: {'identifier': 'boots', 'progress': 'install'}
+[17.811522] (boots) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shone/boots/build/boots'], 'cwd': '/home/shone/boots/build/boots', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shone/boots/install/boots/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shone', 'OLDPWD': '/home/shone/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2281', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shone/robot_ws/install:/home/shone/boots/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/2231,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/2231', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e7bd82b_aee7_46f6_a911_8d1c597fbdc8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z4OU22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shone/robot_ws/install/hello_py:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/home/shone/boots/install/ros2_control_demo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/boots', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shone/robot_ws/build/hello_py:/home/shone/robot_ws/install/hello_py/lib/python3.12/site-packages:/home/shone/robot_ws/install/bot_firmware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/shone/boots/install/ros2_control_demo_description:/home/shone/robot_ws/install/hello_cpp:/home/shone/robot_ws/install/bot_firmware:/home/shone/robot_ws/install/bot_controller:/home/shone/robot_ws/install/bot:/home/shone/boots/install/boots:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/shone/robot_ws/install/hello_py:/opt/ros/jazzy'}), 'shell': False}
+[17.814940] (-) TimerEvent: {}
+[17.830091] (boots) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.831032] (boots) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.833481] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots//boots.xml\n'}
+[17.833841] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/include/boots/boots/carlikebot_system.hpp\n'}
+[17.834288] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/view_robot.launch.py\n'}
+[17.834560] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/ros2_control/carlikebot.ros2_control.xacro\n'}
+[17.834929] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/urdf/carlikebot.urdf.xacro\n'}
+[17.835499] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/launch/carlikebot.launch.py\n'}
+[17.836621] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/config/carlikebot_controllers.yaml\n'}
+[17.837012] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.sh\n'}
+[17.837391] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/library_path.dsv\n'}
+[17.838113] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/package_run_dependencies/boots\n'}
+[17.838697] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/parent_prefix_path/boots\n'}
+[17.839110] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.sh\n'}
+[17.839723] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/ament_prefix_path.dsv\n'}
+[17.840049] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.sh\n'}
+[17.840418] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/environment/path.dsv\n'}
+[17.840825] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.bash\n'}
+[17.842713] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.sh\n'}
+[17.843083] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.zsh\n'}
+[17.843998] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/local_setup.dsv\n'}
+[17.845304] (boots) StdoutLine: {'line': b'-- Symlinking: /home/shone/boots/install/boots/share/boots/package.dsv\n'}
+[17.869237] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/packages/boots\n'}
+[17.869822] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/boots\n'}
+[17.871472] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.871944] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.872910] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig.cmake\n'}
+[17.874442] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/cmake/bootsConfig-version.cmake\n'}
+[17.874933] (boots) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shone/boots/install/boots/share/boots/package.xml\n'}
+[17.876071] (boots) StdoutLine: {'line': b'-- Installing: /home/shone/boots/install/boots/lib/libboots.so\n'}
+[17.906041] (boots) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shone/boots/install/boots/lib/libboots.so" to ""\n'}
+[17.907141] (boots) StdoutLine: {'line': b'-- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake\n'}
+[17.907471] (boots) StdoutLine: {'line': b'-- Up-to-date: /home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake\n'}
+[17.914734] (boots) CommandEnded: {'returncode': 0}
+[17.916084] (-) TimerEvent: {}
+[17.961598] (boots) JobEnded: {'identifier': 'boots', 'rc': 0}
+[17.964588] (-) EventReactorShutdown: {}

@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001836] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.002072] (boots) JobQueued: {'identifier': 'boots', 'dependencies': OrderedDict({'ros2_control_demo_description': '/home/shone/boots/install/ros2_control_demo_description'})}
+[0.002207] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.038553] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.040152] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shone/boots/src/ros2_control_demo_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shone/boots/install/ros2_control_demo_description'], 'cwd': '/home/shone/boots/build/ros2_control_demo_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/shone', 'OLDPWD': '/home/shone', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '521868', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'shone', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shone-HP-ENVY-15-Notebook-PC:@/tmp/.ICE-unix/521834,unix/shone-HP-ENVY-15-Notebook-PC:/tmp/.ICE-unix/521834', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6ae70bae_1361_46c0_a144_08933a21ae1c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4L7Q22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shone/boots/build/ros2_control_demo_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099039] (-) TimerEvent: {}
+[0.199549] (-) TimerEvent: {}
+[0.300232] (-) TimerEvent: {}
+[0.401057] (-) TimerEvent: {}
+[0.501824] (-) TimerEvent: {}
+[0.602508] (-) TimerEvent: {}
+[0.703332] (-) TimerEvent: {}
+[0.804014] (-) TimerEvent: {}
+[0.904753] (-) TimerEvent: {}
+[1.005620] (-) TimerEvent: {}
+[1.106449] (-) TimerEvent: {}
+[1.207263] (-) TimerEvent: {}
+[1.308078] (-) TimerEvent: {}
+[1.408783] (-) TimerEvent: {}
+[1.509695] (-) TimerEvent: {}
+[1.610517] (-) TimerEvent: {}
+[1.711406] (-) TimerEvent: {}
+[1.812319] (-) TimerEvent: {}
+[1.913143] (-) TimerEvent: {}
+[2.013843] (-) TimerEvent: {}
+[2.114682] (-) TimerEvent: {}
+[2.215526] (-) TimerEvent: {}
+[2.316394] (-) TimerEvent: {}
+[2.417139] (-) TimerEvent: {}
+[2.517880] (-) TimerEvent: {}
+[2.618740] (-) TimerEvent: {}
+[2.719413] (-) TimerEvent: {}
+[2.820091] (-) TimerEvent: {}
+[2.874477] (ros2_control_demo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.920296] (-) TimerEvent: {}
+[3.021067] (-) TimerEvent: {}
+[3.121728] (-) TimerEvent: {}
+[3.222481] (-) TimerEvent: {}
+[3.323292] (-) TimerEvent: {}
+[3.424052] (-) TimerEvent: {}
+[3.525051] (-) TimerEvent: {}
+[3.625824] (-) TimerEvent: {}
+[3.726606] (-) TimerEvent: {}
+[3.827281] (-) TimerEvent: {}
+[3.928084] (-) TimerEvent: {}
+[4.028847] (-) TimerEvent: {}
+[4.129720] (-) TimerEvent: {}
+[4.230529] (-) TimerEvent: {}
+[4.284284] (ros2_control_demo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.330717] (-) TimerEvent: {}
+[4.431352] (-) TimerEvent: {}
+[4.532102] (-) TimerEvent: {}
+[4.581795] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.632281] (-) TimerEvent: {}
+[4.733003] (-) TimerEvent: {}
+[4.833754] (-) TimerEvent: {}
+[4.934346] (-) TimerEvent: {}
+[5.035129] (-) TimerEvent: {}
+[5.105064] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.127221] (ros2_control_demo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.128451] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.135375] (-) TimerEvent: {}
+[5.159626] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.235547] (-) TimerEvent: {}
+[5.247934] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.335776] (-) TimerEvent: {}
+[5.436546] (-) TimerEvent: {}
+[5.489529] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.504969] (ros2_control_demo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.505496] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.506373] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.536793] (-) TimerEvent: {}
+[5.637629] (-) TimerEvent: {}
+[5.658767] (ros2_control_demo_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[5.659656] (ros2_control_demo_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[5.660337] (ros2_control_demo_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[5.660946] (ros2_control_demo_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[5.661468] (ros2_control_demo_description) StderrLine: {'line': b'\n'}
+[5.662013] (ros2_control_demo_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[5.662511] (ros2_control_demo_description) StderrLine: {'line': b'  any of the following names:\n'}
+[5.663049] (ros2_control_demo_description) StderrLine: {'line': b'\n'}
+[5.663591] (ros2_control_demo_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[5.664122] (ros2_control_demo_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[5.664659] (ros2_control_demo_description) StderrLine: {'line': b'\n'}
+[5.665193] (ros2_control_demo_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[5.665751] (ros2_control_demo_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[5.666355] (ros2_control_demo_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[5.666928] (ros2_control_demo_description) StderrLine: {'line': b'  has been installed.\n'}
+[5.667491] (ros2_control_demo_description) StderrLine: {'line': b'\n'}
+[5.667994] (ros2_control_demo_description) StderrLine: {'line': b'\x1b[0m\n'}
+[5.668473] (ros2_control_demo_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.672277] (ros2_control_demo_description) CommandEnded: {'returncode': 1}
+[5.737878] (-) TimerEvent: {}
+[5.838593] (-) TimerEvent: {}
+[5.919521] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 1}
+[5.923602] (boots) JobSkipped: {'identifier': 'boots'}
+[5.923815] (-) EventReactorShutdown: {}

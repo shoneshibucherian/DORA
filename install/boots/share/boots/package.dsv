@@ -1,0 +1,11 @@
+source;share/boots/hook/cmake_prefix_path.ps1
+source;share/boots/hook/cmake_prefix_path.dsv
+source;share/boots/hook/cmake_prefix_path.sh
+source;share/boots/hook/ld_library_path_lib.ps1
+source;share/boots/hook/ld_library_path_lib.dsv
+source;share/boots/hook/ld_library_path_lib.sh
+source;share/boots/local_setup.bash
+source;share/boots/local_setup.dsv
+source;share/boots/local_setup.ps1
+source;share/boots/local_setup.sh
+source;share/boots/local_setup.zsh

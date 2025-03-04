@@ -1,0 +1,32 @@
+[0.039s] Invoking command in '/home/shone/boots/build/ros2_control_demo_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shone/boots/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shone/boots/install/ros2_control_demo_description
+[2.873s] -- The C compiler identification is GNU 13.3.0
+[4.282s] -- The CXX compiler identification is GNU 13.3.0
+[4.580s] -- Detecting C compiler ABI info
+[5.103s] -- Detecting C compiler ABI info - done
+[5.126s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.127s] -- Detecting C compile features
+[5.158s] -- Detecting C compile features - done
+[5.246s] -- Detecting CXX compiler ABI info
+[5.488s] -- Detecting CXX compiler ABI info - done
+[5.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.503s] -- Detecting CXX compile features
+[5.504s] -- Detecting CXX compile features - done
+[5.657s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[5.658s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[5.659s]   has asked CMake to find a package configuration file provided by
+[5.659s]   "ament_cmake", but CMake did not find one.
+[5.660s] 
+[5.660s]   Could not find a package configuration file provided by "ament_cmake" with
+[5.661s]   any of the following names:
+[5.661s] 
+[5.662s]     ament_cmakeConfig.cmake
+[5.662s]     ament_cmake-config.cmake
+[5.663s] 
+[5.663s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[5.664s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[5.665s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[5.665s]   has been installed.
+[5.666s] 
+[5.666s] [0m
+[5.667s] -- Configuring incomplete, errors occurred!
+[5.671s] Invoked command in '/home/shone/boots/build/ros2_control_demo_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shone/boots/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shone/boots/install/ros2_control_demo_description
