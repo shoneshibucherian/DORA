@@ -160,12 +160,12 @@ std::vector<hardware_interface::StateInterface> CarlikeBotSystemHardware::export
   for (auto & joint : hw_interfaces_)
   {
     state_interfaces.emplace_back(hardware_interface::StateInterface(
-      joint.second.joint_name, hardware_interface::HW_IF_POSITION, &joint.second.state.position));
+      joint.second.joint_name, hardware_interface::HW_IF_POSITION, &steering_angle_));
 
     if (joint.first == "traction")
     {
       state_interfaces.emplace_back(hardware_interface::StateInterface(
-        joint.second.joint_name, hardware_interface::HW_IF_VELOCITY, &joint.second.state.velocity));
+        joint.second.joint_name, hardware_interface::HW_IF_VELOCITY, &rear_wheel_speed_));
     }
   }
 
@@ -285,11 +285,11 @@ hardware_interface::return_type CarlikeBotSystemHardware::read(
 {
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
 
-  hw_interfaces_["steering"].state.position = hw_interfaces_["steering"].command.position;
+  hw_interfaces_["steering"].state.position = steering_angle_;
 
-  hw_interfaces_["traction"].state.velocity = hw_interfaces_["traction"].command.velocity;
+  hw_interfaces_["traction"].state.velocity = rear_wheel_speed_;
   hw_interfaces_["traction"].state.position +=
-    hw_interfaces_["traction"].state.velocity * period.seconds();
+    rear_wheel_speed_ * period.seconds();
 
   // std::stringstream ss;
   // ss << "Reading states:";
