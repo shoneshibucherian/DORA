@@ -232,7 +232,7 @@ hardware_interface::CallbackReturn CarlikeBotSystemHardware::on_activate(
   
 
   try{
-    arduino_.Open("/dev/ttyUSB0");
+    arduino_.Open("/dev/ttyUSB1");
     arduino_.SetBaudRate(LibSerial::BaudRate::BAUD_115200);
   } catch(...){
     RCLCPP_FATAL_STREAM(get_logger(),"something went wrong while interacting with the port");

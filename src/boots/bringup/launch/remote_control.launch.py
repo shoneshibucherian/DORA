@@ -38,7 +38,7 @@ def generate_launch_description():
     parameters=[{'use_sim_time': use_sim_time}],
     remappings=[
         ('/cmd_vel_in', '/cmd_vel_joy'),
-        # ('/cmd_vel_out', '/bicycle_steering_controller/reference')
+       # ('/cmd_vel_out', '/bicycle_steering_controller/reference')
         ('/cmd_vel_out', '/diff_cmd_vel')
 
     ]

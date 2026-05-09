@@ -16,7 +16,7 @@
   <!-- <xacro:property name="wheeltrack" value="" -->
 
   <!-- Base Link -->
-  <link name="${prefix}base_link" />
+  <link name="${prefix}base_footprint" />
 
   <!-- Chassis -->
 
@@ -47,7 +47,7 @@
     </link>
 
     <joint name="${prefix}chassis_joint" type="fixed">
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}base_footprint"/>
       <child link="${prefix}chassis_link"/>
       <origin xyz="0 0 ${base_height/2 + wheel_radius}" rpy="0 0 0"/>
       <axis xyz="0 0 1"/>
