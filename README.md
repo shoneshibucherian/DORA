@@ -56,7 +56,7 @@ To get up and running on your machine (Ubuntu 24.04 with ROS 2 Jazzy):
 
 1. **Clone the repository and switch to the `trail` branch:**
    ```bash
-   git clone [https://github.com/shoneshibucherian/DORA.git](https://github.com/shoneshibucherian/DORA.git)
+   git clone https://github.com/shoneshibucherian/DORA.git
    cd DORA
    git checkout joystick_control
 
