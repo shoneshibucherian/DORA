@@ -58,4 +58,23 @@ To get up and running on your machine (Ubuntu 24.04 with ROS 2 Jazzy):
    ```bash
    git clone [https://github.com/shoneshibucherian/DORA.git](https://github.com/shoneshibucherian/DORA.git)
    cd DORA
-   git checkout trail
+   git checkout joystick_control
+
+2. **Install dependencies:**
+   Make sure you are in the workspace root, then resolve required packages using `rosdep`:
+   ```bash
+   rosdep install --from-paths src --ignore-src -y
+   ```
+
+3. **Build the workspace:**
+   Build the projects using `colcon`. This will automatically generate your `build/`, `install/`, and `log/` directories:
+   ```bash
+   colcon build
+   ```
+
+4. **Source & Launch:**
+   Configure your terminal environment and launch the main robot control and mapping nodes:
+   ```bash
+   source install/setup.bash
+   ros2 launch boots diff_drive.launch.py
+   ```
