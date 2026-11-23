@@ -1,5 +1,51 @@
-# DORA (Dynamic Objective-Reaching Autonomous Rovers)
-This project was started in order to participate in the Nasa Minds competition The objective of this project is to build a swarm bots where we would Have a one giant ATV has a lead bot controlling smaller bots Heather Swan The main objective is to explore the unexplored areas of the moon without any risk to the lives of astronauts and this particular repo focuses on the building and the code of all the ATV that is the Dora And the smaller which are controlled by the ATV will be called boots. The The ATV uses a bicycle drive system where the base code has been adapted from the Ros2 control examples.
- components
- So the software hierarchy is such that we would have ROS two controls as a library which is used it is used for the drive system for the ATV and we would also be using a The controller has well a remote controller to control the motions of the Atriv but in the future these motions will be control autonomously So and we were we are also using G mapping a software which uses which uses the readings from a Lidar to create a map of the environment 
- Since this is a bicycle Drive system which would only have one DC motor for the forward and backward motion and a steering just turn left and right and so the DC motor is connected to a citron motor driver and the Saturn monitor driver is then connected to the Adrenaline Nano as a motor controller and And the Nano will then be control will be controlled by the Raspberry or any computer. The version of the rows that we are using is jazzy and the version of the Ubuntu is 24.04 So all the software such as the mapping software the Lidar reading software all of it will be ran on the Raspberry Pi and once suppose the user is sending command of go ask of asking the ATV to move five meters forward this command will be sent to the Raspberry Pi and Raspberry Pi would send this command to the Rostov control system so which will which contains the library for the bicycle drive system The command of moving five meters in the X direction will be processed from inside the bicycle drive system and will be sent has motor commands to the adrenal nano once it sends to the adrenal Nano the adrenal Nano would start a control loop Just make sure that the ATV has reached the five meters per second a major reason behind using the adrenal nano is because this should reduce the the computing effort on the Raspberry Pi so that the Raspberry Pi can focus more on the mapping and the locomotion 
+# DORA: Dynamic Objective-Reaching Autonomous Rovers
+
+🚀 **NASA MINDS Competition Project**
+
+The **DORA** project was created to participate in the NASA MINDS competition. The objective of this project is to develop an autonomous swarm robotics system to explore uncharted and high-risk areas of the Moon without risking the lives of astronauts. 
+
+This repository focuses on the hardware build and software codebase of **DORA** (the giant ATV lead rover) and its **Boots** (the smaller follower rovers).
+<img width="5712" height="4284" alt="IMG_7763" src="https://github.com/user-attachments/assets/c6148d35-73e9-4203-aac5-23f83145548c" />
+
+---
+
+## 📌 System Overview & Swarm Concept
+
+Our system uses a "lead and follower" swarm hierarchy to maximize exploration efficiency:
+* **The Lead Rover (DORA):** A giant ATV that serves as the command center, coordinating the swarm, mapping the terrain, and sending instructions.
+* **The Follower Rovers (BOOTS):** Smaller, agile rovers controlled by DORA, sent to explore high-risk and unreachable terrain.
+
+---
+
+## ⚙️ Hardware & Drive System
+
+The ATV uses a **Bicycle Drive System** designed to simplify locomotion while ensuring precise control:
+* **Forward/Backward Motion:** Powered by a single DC Motor.
+* **Steering (Left/Right):** Driven by an ASME Servo Motor.
+
+### Component Connections & Signal Flow:
+1. **User Input:** Movement commands (e.g., "move forward 5 meters") are sent via a Remote Controller or autonomy scripts to the **Raspberry Pi**.
+2. **Main Computation:** The **Raspberry Pi** runs the core robotics stack, processing mapping (G-Mapping) and sending velocity commands to the `ros2_control` system.
+3. **Microcontroller Delegation:** Command payloads are passed to an **Arduino Nano** as the dedicated motor controller to handle low-level loop control, reducing computing load on the Raspberry Pi.
+4. **Actuators:**
+   * **Steering:** The Arduino Nano sends PWM signals directly to the **ASME Servo Motor**.
+   *<img width="5712" height="4284" alt="IMG_7761" src="https://github.com/user-attachments/assets/c9f48f61-9888-4145-99ab-b588ee4b8939" />
+ 
+   * **Drive:** The Arduino Nano commands the **Cytron Motor Driver** to drive the **DC Motor**.
+   * <img width="5712" height="4284" alt="IMG_7760" src="https://github.com/user-attachments/assets/726b3906-8a00-472b-ab1e-256a90e1b29b" />
+
+
+---
+
+## 💻 Software Stack & Hierarchy
+
+The software architecture divides heavy computation and hardware-level task execution to optimize performance:
+
+* **Operating System:** Ubuntu 24.04 LTS
+* **Robot Operating System:** ROS 2 (Jazzy Jalisco)
+* **High-Level Tasks (Raspberry Pi):**
+  * **Lidar Processing & G-Mapping:** Generates real-time 2D maps of the environment.
+  * **Bicycle Drive Control:** Adapted from standard `ros2_control` examples to transform simple `X` direction movements into hardware-understandable variables.
+* **Low-Level Tasks (Arduino Nano):**
+  * **Feedback Loop:** Runs dedicated control loops to ensure the ATV matches the requested physical outputs (e.g., maintain 5 meters per second) based on driver feedback.
+  <img width="2400" height="1792" alt="final dia" src="https://github.com/user-attachments/assets/2b7d753f-06f9-4c89-b0ba-ddf5cab58a9d" />
