@@ -1,9 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o[0m
-[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type boots::CarlikeBotSystemHardware::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
-[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:299:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kperiod[m[K’ was not declared in this scope; did you mean ‘[01m[Kperror[m[K’?
-  299 |     hw_interfaces_["traction"].state.velocity * [01;31m[Kperiod[m[K.seconds();
-      |                                                 [01;31m[K^~~~~~[m[K
-      |                                                 [32m[Kperror[m[K
-gmake[2]: *** [CMakeFiles/boots.dir/build.make:76: CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/boots.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

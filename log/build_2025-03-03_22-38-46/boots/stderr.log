@@ -1,8 +1,0 @@
-[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn boots::CarlikeBotSystemHardware::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
-[01m[K/home/shone/boots/src/boots/hardware/carlikebot_system.cpp:279:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
-  279 |   [01;31m[Ktimer_[m[K.reset();
-      |   [01;31m[K^~~~~~[m[K
-      |   [32m[Ktimer_t[m[K
-gmake[2]: *** [CMakeFiles/boots.dir/build.make:76: CMakeFiles/boots.dir/hardware/carlikebot_system.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/boots.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
