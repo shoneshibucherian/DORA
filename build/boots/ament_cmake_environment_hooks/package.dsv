@@ -1,4 +1,0 @@
-source;share/boots/local_setup.bash
-source;share/boots/local_setup.dsv
-source;share/boots/local_setup.sh
-source;share/boots/local_setup.zsh

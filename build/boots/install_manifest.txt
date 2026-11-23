@@ -1,3 +1,0 @@
-/home/shone/boots/install/boots/lib/libboots.so
-/home/shone/boots/install/boots/share/boots/cmake/export_bootsExport.cmake
-/home/shone/boots/install/boots/share/boots/cmake/export_bootsExport-noconfig.cmake
