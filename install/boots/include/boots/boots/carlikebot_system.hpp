@@ -1,1 +1,0 @@
-/home/shone/boots/src/boots/hardware/include/boots/carlikebot_system.hpp

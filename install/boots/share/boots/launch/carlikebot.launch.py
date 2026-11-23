@@ -1,1 +1,0 @@
-/home/shone/boots/src/boots/bringup/launch/carlikebot.launch.py

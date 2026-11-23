@@ -1,1 +1,0 @@
-/home/shone/boots/build/boots/ament_cmake_core/bootsConfig-version.cmake
