@@ -49,3 +49,13 @@ The software architecture divides heavy computation and hardware-level task exec
 * **Low-Level Tasks (Arduino Nano):**
   * **Feedback Loop:** Runs dedicated control loops to ensure the ATV matches the requested physical outputs (e.g., maintain 5 meters per second) based on driver feedback.
   <img width="2400" height="1792" alt="final dia" src="https://github.com/user-attachments/assets/2b7d753f-06f9-4c89-b0ba-ddf5cab58a9d" />
+
+  ### Quick Start Commands
+
+To get up and running on your machine (Ubuntu 24.04 with ROS 2 Jazzy):
+
+1. **Clone the repository and switch to the `trail` branch:**
+   ```bash
+   git clone [https://github.com/shoneshibucherian/DORA.git](https://github.com/shoneshibucherian/DORA.git)
+   cd DORA
+   git checkout trail
